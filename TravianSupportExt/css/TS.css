@@ -1,0 +1,118 @@
+td.unit.none{
+	background: #9eff9e;
+}
+#sidebarBoxVillagelist li{
+	grid-template-rows: 16px 12px!important;
+	font-size: 11px!important;
+}
+
+#sidebarBoxVillagelist .shortcutsEnabled li{
+	display: block!important;
+}
+.iconAndNameWrapper{
+	padding: 0!important;
+}
+
+.Tjs_troop_train{
+	height:100%; 
+	width:100%; 
+	overflow: hidden; 
+	margin-top:3px;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+.Tjs_troop_train .Tjs_troop_train_group{
+	float: left;
+	width:25%;
+}
+.Tjs_troop_train .Tjs_troop_train_name{
+	float: left; 
+	color:black;
+	padding-right: 5px;
+}
+.Tjs_troop_train .Tjs_troop_train_timer{
+	float: left; 
+}
+
+
+
+
+.mobileOptimized #stockBar:before{
+	content:unset!important;
+}
+
+ts-village-row-adv{
+	height: 10px;
+	z-index: 999;
+}
+
+ts-village-row-adv ts-timer{
+	padding-right: 3px;
+	line-height: 8px;
+    font-size: 12px;
+}
+
+ts-village-row-adv{
+	display: inline-grid;
+    grid-column: 1 / span 2;
+}
+
+ts-village-row-adv span{
+	font-size: 12px;
+	line-height: 8px;
+}
+.tjs-fast-click{
+	height: 16px;
+}
+.tjs-fast-click > *{
+	margin: 0px 25px 0px 0px;
+}
+
+.tjs-svg{
+	vertical-align: middle;	
+	width: 20px;
+    height: 20px;
+}
+.loyalty .tjs-svg{
+	margin-right: 3px;
+}
+.tjs-menu{
+	float:right;
+	width:100%;
+	grid-column-start: 3;
+	grid-row-start: 2;
+}
+
+.tjs-menu :nth-child(999)
+{
+	height: 21px;
+}
+
+#sidebarBoxVillagelist .expansionSlotInfo .boxTitle
+{
+	font-size: small; 
+	width: 75%;
+}
+.buttonFramed.withIcon img{
+	width: 20px;
+	height: 20px;
+	z-index: 3;
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	overflow: visible; 
+	transform: translateX(-50%) translateY(-50%);
+}
+.buttonFramed.withIcon.forum img{
+	margin-top: 1px;
+	margin-left: 2px;
+}
+.expansionSlotInfo .tsTimer{
+	float: right;
+	padding-right: 8px;
+	width:25%;
+	text-align: right;
+}
+.upgradeBuilding .resourceWrapper{
+	grid-template-columns: auto auto auto auto auto auto !important;
+}
